@@ -21,4 +21,4 @@ script:
   - cd ..
   - cd hpe3par_ansible_module
   - export PYTHONPATH=$PWD
-  - pytest test/unit/test_hpe3par_remote_copy.py
+  - /usr/bin/pytest test/unit/test_hpe3par_remote_copy.py
