@@ -20,6 +20,5 @@ script:
   - python setup.py install
   - cd ..
   - cd hpe3par_ansible_module
-  - export PYTHONPATH=$PWD
-  - which ansible
+  - export PYTHONPATH=$PWD:/usr/local/lib
   - python -m pytest
