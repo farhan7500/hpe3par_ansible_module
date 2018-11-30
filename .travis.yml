@@ -22,4 +22,5 @@ script:
   - cd hpe3par_ansible_module
   - export PYTHONPATH=$PWD
   - cp test/unit/* test/
+  - rm -f test/__init__.py
   - pytest
